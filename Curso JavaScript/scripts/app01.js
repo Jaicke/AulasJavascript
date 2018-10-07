@@ -9,7 +9,9 @@ btnElement.onclick = function(){
     boxElement.style.width = '100';
     boxElement.style.height = '100';
     boxElement.style.backgroundColor = '#F00';  
-    boxElement.style.cssFloat = 'left';                    
+    boxElement.style.cssFloat = 'left';   
+    boxElement.style.marginTop = '50px';  
+    boxElement.style.marginLeft = '20px';               
     container.appendChild(boxElement); 
             
     boxElement.onmouseover = function (){
